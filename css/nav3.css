@@ -13,9 +13,14 @@
 }
 
 #nav3 .menuOpcio{
+    cursor: pointer;
     width: 100%;
-    background: #f1ffc3;
+    background: #ddff9b;
     display: inline-block;
+}
+
+#nav3 .menuOpcio:hover{
+    background: #f1ffc3;
 }
 
 #nav3 ul.menuDesplegable{
