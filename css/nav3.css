@@ -19,11 +19,13 @@
 }
 
 #nav3 ul.menuDesplegable{
+    position: absolute;
+    opacity: 0;
+    transition: 500ms;
     width: 100%;
-    display: none;
 }
 
 #nav3 li.menuCont:hover ul.menuDesplegable{
+    opacity: 1;
     display: block;
-    position: absolute;
 }

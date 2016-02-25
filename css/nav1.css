@@ -12,11 +12,11 @@
 }
 
 #nav1 div.menuDesplegable{
-    width: 100%;
+    position: absolute;
     display: none;
+    width: 100%;
 }
 
 #nav1 div.menuCont:hover div.menuDesplegable{
     display: block;
-    position: absolute;
 }
