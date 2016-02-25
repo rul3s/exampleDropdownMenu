@@ -1,0 +1,29 @@
+#nav3 ul, #nav3 li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav3 li.menuCont{
+    position: relative;
+    width: 300px;
+
+    font-size: 2em;
+    display: inline-block;
+}
+
+#nav3 .menuOpcio{
+    width: 100%;
+    background: #f1ffc3;
+    display: inline-block;
+}
+
+#nav3 ul.menuDesplegable{
+    width: 100%;
+    display: none;
+}
+
+#nav3 li.menuCont:hover ul.menuDesplegable{
+    display: block;
+    position: absolute;
+}

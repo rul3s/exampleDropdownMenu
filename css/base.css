@@ -19,7 +19,7 @@ body{
 
 h1 {
     font-size: 3em;
-    margin: 30px;
+    margin: 0 0 20px 0;
     padding: 0;
 }
 
@@ -29,30 +29,5 @@ nav{
 
     margin-bottom: 10%;
 }
-
-#nav1 div.menuCont{
-    position: relative;
-    width: 300px;
-
-    font-size: 2em;
-    display: inline-block;
-}
-
-#nav1 div.menuOpcio{
-    width: 100%;
-    background: #f1ffc3;
-}
-
-#nav1 div.menuDesplegable{
-    width: 100%;
-    display: none;
-}
-
-#nav1 div.menuCont:hover div.menuDesplegable{
-    display: block;
-    position: absolute;
-}
-
-
 
 

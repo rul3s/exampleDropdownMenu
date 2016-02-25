@@ -1,0 +1,22 @@
+#nav1 div.menuCont{
+    position: relative;
+    width: 300px;
+
+    font-size: 2em;
+    display: inline-block;
+}
+
+#nav1 div.menuOpcio{
+    width: 100%;
+    background: #f1ffc3;
+}
+
+#nav1 div.menuDesplegable{
+    width: 100%;
+    display: none;
+}
+
+#nav1 div.menuCont:hover div.menuDesplegable{
+    display: block;
+    position: absolute;
+}
